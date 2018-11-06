@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-
+//getting from 2d array to 1d array in shake way |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 public class ArraySnake {
     public static void main(String[] args) {
         int[][] a = {{}};
@@ -40,5 +40,6 @@ public class ArraySnake {
             l[i] = (int)inters.get(i);
 
         return l;
+        
     }
 }
